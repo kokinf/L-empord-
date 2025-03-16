@@ -15,7 +15,7 @@ var db *sql.DB
 // Инициализация базы данных PostgreSQL
 func initDB() {
 	var err error
-	connStr := "user=postgres dbname=lempordb sslmode=disable password=6473"
+	connStr := "user=postgres dbname=lempordb sslmode=disable password=yourpassword"
 	db, err = sql.Open("postgres", connStr)
 	if err != nil {
 		log.Fatal(err)
