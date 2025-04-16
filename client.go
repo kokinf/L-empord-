@@ -91,7 +91,7 @@ func main() {
 	fmt.Println("4. Выход")
 
 	option, _ := reader.ReadString('\n')
-	option = option[:len(option)-1] // Удаление символа новой строки
+	option = option[:len(option)-1]
 
 	switch option {
 	case "1":
@@ -158,6 +158,5 @@ func main() {
 		fmt.Println("Неверная опция")
 	}
 
-	// Завершение программы после выполнения операции
 	return
 }
