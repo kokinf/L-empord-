@@ -16,7 +16,7 @@ const (
 	host     = "localhost"
 	port     = 5432
 	user     = "postgres"
-	password = "6473"
+	password = "your-password"
 	dbname   = "lempordb"
 )
 
